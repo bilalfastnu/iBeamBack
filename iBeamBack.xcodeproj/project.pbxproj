@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EA4E99F1354A7190070964E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA4E99E1354A7190070964E /* UIKit.framework */; };
+		8EA4E9A11354A7190070964E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA4E9A01354A7190070964E /* Foundation.framework */; };
+		8EA4E9A31354A7190070964E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA4E9A21354A7190070964E /* CoreGraphics.framework */; };
+		8EA4E9A91354A7190070964E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EA4E9A71354A7190070964E /* InfoPlist.strings */; };
+		8EA4E9AC1354A7190070964E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4E9AB1354A7190070964E /* main.m */; };
+		8EA4E9AF1354A7190070964E /* iBeamBackAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4E9AE1354A7190070964E /* iBeamBackAppDelegate.m */; };
+		8EA4E9B21354A7190070964E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA4E9B01354A7190070964E /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EA4E99A1354A7180070964E /* iBeamBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeamBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA4E99E1354A7190070964E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8EA4E9A01354A7190070964E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8EA4E9A21354A7190070964E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EA4E9A61354A7190070964E /* iBeamBack-Info.plist */ = {isa = PBXFileReference; path = "iBeamBack-Info.plist"; sourceTree = "<group>"; };
+		8EA4E9A81354A7190070964E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EA4E9AA1354A7190070964E /* iBeamBack-Prefix.pch */ = {isa = PBXFileReference; path = "iBeamBack-Prefix.pch"; sourceTree = "<group>"; };
+		8EA4E9AB1354A7190070964E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EA4E9AD1354A7190070964E /* iBeamBackAppDelegate.h */ = {isa = PBXFileReference; path = iBeamBackAppDelegate.h; sourceTree = "<group>"; };
+		8EA4E9AE1354A7190070964E /* iBeamBackAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeamBackAppDelegate.m; sourceTree = "<group>"; };
+		8EA4E9B11354A7190070964E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EA4E9971354A7180070964E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA4E99F1354A7190070964E /* UIKit.framework in Frameworks */,
+				8EA4E9A11354A7190070964E /* Foundation.framework in Frameworks */,
+				8EA4E9A31354A7190070964E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EA4E98F1354A7180070964E = {
+			isa = PBXGroup;
+			children = (
+				8EA4E9A41354A7190070964E /* iBeamBack */,
+				8EA4E99D1354A7190070964E /* Frameworks */,
+				8EA4E99B1354A7180070964E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA4E99B1354A7180070964E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EA4E99A1354A7180070964E /* iBeamBack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EA4E99D1354A7190070964E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EA4E99E1354A7190070964E /* UIKit.framework */,
+				8EA4E9A01354A7190070964E /* Foundation.framework */,
+				8EA4E9A21354A7190070964E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EA4E9A41354A7190070964E /* iBeamBack */ = {
+			isa = PBXGroup;
+			children = (
+				8EA4E9AD1354A7190070964E /* iBeamBackAppDelegate.h */,
+				8EA4E9AE1354A7190070964E /* iBeamBackAppDelegate.m */,
+				8EA4E9B01354A7190070964E /* MainWindow.xib */,
+				8EA4E9A51354A7190070964E /* Supporting Files */,
+			);
+			path = iBeamBack;
+			sourceTree = "<group>";
+		};
+		8EA4E9A51354A7190070964E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EA4E9A61354A7190070964E /* iBeamBack-Info.plist */,
+				8EA4E9A71354A7190070964E /* InfoPlist.strings */,
+				8EA4E9AA1354A7190070964E /* iBeamBack-Prefix.pch */,
+				8EA4E9AB1354A7190070964E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EA4E9991354A7180070964E /* iBeamBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA4E9B51354A7190070964E /* Build configuration list for PBXNativeTarget "iBeamBack" */;
+			buildPhases = (
+				8EA4E9961354A7180070964E /* Sources */,
+				8EA4E9971354A7180070964E /* Frameworks */,
+				8EA4E9981354A7180070964E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBeamBack;
+			productName = iBeamBack;
+			productReference = 8EA4E99A1354A7180070964E /* iBeamBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EA4E9911354A7180070964E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Scrybe;
+			};
+			buildConfigurationList = 8EA4E9941354A7180070964E /* Build configuration list for PBXProject "iBeamBack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8EA4E98F1354A7180070964E;
+			productRefGroup = 8EA4E99B1354A7180070964E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA4E9991354A7180070964E /* iBeamBack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EA4E9981354A7180070964E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA4E9A91354A7190070964E /* InfoPlist.strings in Resources */,
+				8EA4E9B21354A7190070964E /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EA4E9961354A7180070964E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA4E9AC1354A7190070964E /* main.m in Sources */,
+				8EA4E9AF1354A7190070964E /* iBeamBackAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EA4E9A71354A7190070964E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA4E9A81354A7190070964E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8EA4E9B01354A7190070964E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA4E9B11354A7190070964E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EA4E9B31354A7190070964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8EA4E9B41354A7190070964E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		8EA4E9B61354A7190070964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBeamBack/iBeamBack-Prefix.pch";
+				INFOPLIST_FILE = "iBeamBack/iBeamBack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8EA4E9B71354A7190070964E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBeamBack/iBeamBack-Prefix.pch";
+				INFOPLIST_FILE = "iBeamBack/iBeamBack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EA4E9941354A7180070964E /* Build configuration list for PBXProject "iBeamBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA4E9B31354A7190070964E /* Debug */,
+				8EA4E9B41354A7190070964E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA4E9B51354A7190070964E /* Build configuration list for PBXNativeTarget "iBeamBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA4E9B61354A7190070964E /* Debug */,
+				8EA4E9B71354A7190070964E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EA4E9911354A7180070964E /* Project object */;
+}
