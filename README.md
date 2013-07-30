@@ -1,10 +1,40 @@
 iBeamBack
 =========
 
-## An Enterprise iPad App. for Private Social Network Communication
+## An Enterprise iPad App. for internal Communication & Collaboration
 
-## Screensots of the Application
-https://github.com/bilalnazir90/iBeamBack/wiki
+
+### More Screensots of the Application
+https://github.com/bilalnazir90/iBeamBack/wiki    
+    
+<table width="768" align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+           <br><img src="https://raw.github.com/bilalnazir90/iBeamBack/master/Screenshots/01%20-%20iPad%20App%20-%20It%2002%202.jpg">
+        </td>
+        <td align="right" valign="bottom" height="108">
+          <img src="https://raw.github.com/bilalnazir90/iBeamBack/master/Screenshots/02%20-%20iPad%20App%20-%20It%2002.jpg" style="border:0px;">
+        </td>   
+        <td>
+           <br><img src="https://raw.github.com/bilalnazir90/iBeamBack/master/Screenshots/07%20-%20iPad%20App%20-%20It%2002.jpg">
+        </td>      
+    </tr>
+    <tr>
+        <td>
+           <br><img src="https://raw.github.com/bilalnazir90/iBeamBack/master/Screenshots/09%20-%20iPad%20App%20-%20It%2002.jpg">
+        </td>
+        <td align="right" valign="bottom" height="108">
+          <img src="https://raw.github.com/bilalnazir90/iBeamBack/master/Screenshots/11%20-%20iPad%20App%20-%20It%2002.jpg" style="border:0px;">
+        </td>         
+    <td align="right" valign="bottom" height="108">
+       <img src="https://raw.github.com/bilalnazir90/iBeamBack/master/Screenshots/12%20-%20iPad%20App%20-%20It%2002.jpg">
+    </td>    
+    </tr> 
+    <tr>
+
+</table>
+
+
 
 ### 1.1 Purpose of Project
 Information sharing, communication and collaboration are essential for successful planning and execution of projects. A typical organization uses many applications to execute their projects; information generated during the life of a project is spread across many applications which make sharing, communication and collaboration difficult .As there are so many people involved in projects and information sharing within team members becomes difficult which in turn affects the productivity. Projects need these communication tools and applications in a unified form that helps the team members to increase the productivity by sharing and collaboration.
