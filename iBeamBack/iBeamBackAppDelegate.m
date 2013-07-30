@@ -2,22 +2,54 @@
 //  iBeamBackAppDelegate.m
 //  iBeamBack
 //
-//  Created by Ali Hasan on 4/12/11.
-//  Copyright 2011 Scrybe. All rights reserved.
+//  Created by Bilal Nazir on 4/12/11.
+//  Copyright 2011 iBeamBack. All rights reserved.
 //
 
 #import "iBeamBackAppDelegate.h"
 
+#import "SignInViewController.h"
+#import "FeedSplitViewController.h"
+#import <Three20/Three20.h>
+
 @implementation iBeamBackAppDelegate
 
+///////////////////////////////////////////////////////////////////////////
 
 @synthesize window=_window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+     [[TTURLRequestQueue mainQueue] setMaxContentLength:0]; 
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(showFeed)
+     name:@"SignInCompleted"
+     object:nil ];
+
+    signInViewController = [[SignInViewController alloc] init];
+    
+    [self.window addSubview:signInViewController.view];
+
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+#pragma mark -
+#pragma mark SignInViewController Delegate
+
+-(void) showFeed
+{
+    [signInViewController.view removeFromSuperview];
+    
+    [signInViewController release];
+    
+    feedSplitViewController = [[FeedSplitViewController alloc] init];
+    
+    [self.window addSubview:feedSplitViewController.view];
+  
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -62,6 +94,7 @@
 - (void)dealloc
 {
     [_window release];
+    [feedSplitViewController release];
     [super dealloc];
 }
 
